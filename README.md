@@ -1,16 +1,87 @@
-# React + Vite
+# Stallion Luxury Perfume Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive landing page built for a Perfume brand  
+It showcases a luxury perfume brand UI with modern design principles.
 
-Currently, two official plugins are available:
+## Live Demo
+https://stallion-delta.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Repository
+https://github.com/Lah-deh/Stallion
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a responsive landing page for a luxury perfume brand.  
+It focuses on clean UI, responsiveness, and basic frontend interactivity.
 
-## Expanding the ESLint configuration
+The design is inspired by a dark premium aesthetic with elegant typography and smooth interactions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive design (mobile, tablet, desktop)
+- Hero section with product showcase
+- Product collection section
+- Features section
+- Testimonials section
+- Footer section
+- Hover effects on buttons and cards
+- Smooth animations
+- 
+## Tech Stack
+
+- React
+- Tailwind CSS v4
+- Vite
+
+## Folder Structure
+
+src/
+components/
+Navbar.jsx
+Hero.jsx
+Features.jsx
+Products.jsx
+Testimonials.jsx
+Footer.jsx
+
+App.jsx
+main.jsx
+index.css
+
+## Responsiveness
+
+The layout adapts to:
+
+- Mobile devices
+- Tablets
+- Desktop screens
+
+Media queries and Tailwind responsive utilities were used.
+
+## Interactivity
+
+- Button hover effects
+- Card hover animations
+- Image zoom on hover
+- Smooth transitions
+
+
+## Deployment
+
+The project can be deployed using:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+## Screenshots
+
+### Desktop
+![Desktop View](/screenshots/desktop.png)
+
+### Tablet
+![Tablet View](/screenshots/tablet.png)
+
+### Mobile
+![Mobile View](/screenshots/mobile.png)
+
