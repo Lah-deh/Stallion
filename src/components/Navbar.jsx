@@ -5,7 +5,7 @@ export default function Navbar() {
         STALLION
       </h1>
 
-      <ul className="hidden md:flex items-center gap-10 text-sm text-gray-300">
+      <ul className="hidden md:flex items-center gap-10 text-sm text-gray-300 hover:text-[#A6996F] transition-all duration-300 cursor-pointer">
         <li className="hover:text-white cursor-pointer transition-all">Home</li>
         <li className="hover:text-white cursor-pointer transition-all">Products</li>
         <li className="hover:text-white cursor-pointer transition-all">About</li>

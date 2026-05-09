@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center px-6 md:px-16 py-16 md:py-28">
-      <div>
+    <section className="grid grid-cols-1 md:grid-cols-2 md:gap-8 lg:gap-14 items-center px-6 md:px-12 lg:px-16 py-16 md:py-20 lg:py-28 animate-fadeUp">
+      <div className="animate-fade-in">
         <p className="text-[#A6996F] tracking-[0.3em] text-sm mb-5">
           PREMIUM PERFUME
         </p>
@@ -20,18 +20,18 @@ export default function Hero() {
         </p>
 
         <div className="flex items-center gap-5 flex-wrap">
-          <button className="bg-[#A6996F] text-black px-8 py-4 rounded-full hover:scale-105 transition-all cursor-pointer font-medium">
+          <button className="bg-[#A6996F] text-black px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 active:scale-95">
             Explore Now
           </button>
 
-          <button className="border border-gray-700 px-8 py-4 rounded-full hover:bg-white hover:text-black transition-all cursor-pointer">
-            View Collection
-          </button>
+            <button className="border border-gray-700 px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 active:scale-95 hover:bg-white hover:text-black">
+               View Collection
+            </button>
         </div>
       </div>
 
       <div className="flex justify-center">
-        <div className="bg-white/5 backdrop-blur-lg rounded-[3rem] p-8 md:p-12 shadow-2xl border border-white/10 hover:scale-105 transition-all duration-500">
+        <div className="flex justify-center md:justify-end transition-all duration-500 hover:scale-105">
           <img
             src="/image/Stallion.jpg"
             alt="perfume"

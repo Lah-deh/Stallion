@@ -5,9 +5,10 @@ import Products from './components/Products'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 
+
 export default function App() {
   return (
-    <div className="bg-[#080707] text-white overflow-hidden">
+    <div className="bg-[#080707] text-white overflow-hidden animate-fadeUp">
       <Navbar />
       <Hero />
       <Features />

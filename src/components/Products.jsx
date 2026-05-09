@@ -1,18 +1,15 @@
 const products = [
   {
     name: 'Royal Oud',
-    image:
-      '/image/Royal.jpg'
+    image: '/image/Royal.jpg'
   },
   {
     name: 'Velvet Noir',
-    image:
-      '/image/Velvet.jpg'
+    image: '/image/Velvet.jpg'
   },
   {
     name: 'Golden Musk',
-    image:
-      '/image/Golden.webp'
+    image: '/image/Golden.webp'
   }
 ]
 
