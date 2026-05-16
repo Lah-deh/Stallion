@@ -9,12 +9,41 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <div className="bg-[#080707] text-white overflow-hidden animate-fadeUp">
-      <Navbar />
-      <Hero />
-      <Features />
-      <Products />
-      <Testimonials />
+      <Navbar
+        logo="STALLION"
+        links={['Home', 'Products', 'About', 'Reviews']}
+        buttonText="Shop Now"
+      />
+      <Hero
+        subtitle="PREMIUM PERFUME"
+        title={
+          <>
+            Luxury
+            <br />
+            Fragrance
+            <br />
+            Collection
+          </>
+        }
+        description="Discover bold and timeless fragrances crafted for elegance, confidence and unforgettable moments."
+        primaryButton="Explore Now"
+        secondaryButton="View Collection"
+        image="/image/Stallion.jpg"
+      />
+      <Features
+        subtitle="FEATURES"
+        heading="Why Choose Us"
+     />
+      <Products
+        subtitle="COLLECTION"
+        heading="Featured Perfumes"
+        buttonText="Buy"
+      />
+      <Testimonials
+        subtitle="TESTIMONIALS"
+        heading="What Clients Say"
+      />
       <Footer />
-    </div>
+    </div> 
   )
 }
